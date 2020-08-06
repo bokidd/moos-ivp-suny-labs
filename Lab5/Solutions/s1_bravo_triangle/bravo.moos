@@ -110,7 +110,7 @@ ProcessConfig = pHelmIvP
   AppTick    = 4
   CommsTick  = 4
 
-  behaviors  = alpha.bhv
+  behaviors  = bravo.bhv
   domain     = course:0:359:360
   domain     = speed:0:4:41
 }
@@ -190,9 +190,9 @@ ProcessConfig = pMarineViewer
   // datum_size     = 18
   // gui_size = small
 
-  left_context[shapes] = VIEW_POINT = x=$(XPOS),y=$(YPOS),label=hello
-  left_context[shapes] = VIEW_POLYGON = format=radial,x=$(XPOS),y=$(YPOS), radius=10, pts=8, edge_size=1,label=mypoly
-                             
+  // left_context[survey-point] = DEPLOY=true
+  // left_context[survey-point] = MOOS_MANUAL_OVERRIDE=false
+  // left_context[survey-point] = RETURN=false
 
   right_context[return] = DEPLOY=true
   right_context[return] = MOOS_MANUAL_OVERRIDE=false

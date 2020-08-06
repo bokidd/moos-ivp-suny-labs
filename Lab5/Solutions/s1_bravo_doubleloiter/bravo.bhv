@@ -2,32 +2,59 @@
 
 initialize   DEPLOY = false
 initialize   RETURN = false
+initialize   POSITION = west
 	
 //----------------------------------------------
-Behavior = BHV_Waypoint
+Behavior = BHV_Loiter
 { 
-  name      = waypt_survey
+  name      = loiter_west
   pwt       = 100
   condition = RETURN = false
   condition = DEPLOY = true
-  endflag   = RETURN = true
+  condition = POSITION = west
+  endflag   = POSITION = east
 
-  updates    = WPT_UPDATE
+  
+  updates    = LOITER_UPDATE
   perpetual  = true
 
-                lead = 8
-         lead_damper = 1
-       lead_to_start = true
-               speed = 12   // meters per second
-        capture_line = true
+            duration = 150
+ duration_idle_decay = false
+               speed = 2.5   // meters per second
       capture_radius = 5.0
          slip_radius = 15.0
-	efficiency_measure = all
 
-             polygon = 60,-40 : 60,-160 : 150,-160 : 180,-100 : 150,-40
+             polygon = format=radial, x=100, y=-75, radius=30, pts=8, snap=1
 
-               order = normal
-             repeat  = 100000
+    visual_hints = nextpt_color=yellow
+    visual_hints = nextpt_vertex_size=8
+    visual_hints = nextpt_lcolor=gray70
+    visual_hints = vertex_color=dodger_blue, edge_color=white
+    visual_hints = vertex_size=5, edge_size=1
+}
+
+//----------------------------------------------
+Behavior = BHV_Loiter
+{ 
+  name      = loiter_east
+  pwt       = 100
+  condition = RETURN = false
+  condition = DEPLOY = true
+  condition = POSITION = east
+  endflag   = POSITION = west
+
+  
+  updates    = LOITER_UPDATE
+  perpetual  = true
+
+            duration = 150
+ duration_idle_decay = false
+               speed = 5  // meters per second
+      capture_radius = 5.0
+         slip_radius = 15.0
+
+
+             polygon = format=radial, x=160, y=-50, radius=60, pts=6, snap=1
 
     visual_hints = nextpt_color=yellow
     visual_hints = nextpt_vertex_size=8
@@ -49,7 +76,7 @@ Behavior=BHV_Waypoint
   endflag    = DEPLOY = false
   endflag    = MISSION = complete
 	
-           speed = 2.0
+           speed = 5
   capture_radius = 2.0
      slip_radius = 8.0
           points = 0,-20

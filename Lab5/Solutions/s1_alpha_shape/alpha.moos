@@ -190,9 +190,7 @@ ProcessConfig = pMarineViewer
   // datum_size     = 18
   // gui_size = small
 
-  // left_context[survey-point] = DEPLOY=true
-  // left_context[survey-point] = MOOS_MANUAL_OVERRIDE=false
-  // left_context[survey-point] = RETURN=false
+  left_context[dot] = VIEW_POINT = x=$(XPOS),y=$(YPOS),label=hello
 
   right_context[return] = DEPLOY=true
   right_context[return] = MOOS_MANUAL_OVERRIDE=false
