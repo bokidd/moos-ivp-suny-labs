@@ -1,8 +1,3 @@
----
-layout: page
-title: Installation
----
-
 
 # This will have info on OS setup
 
