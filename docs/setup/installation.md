@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Installation"
-permalink: https://bokidd.github.io/moos-ivp-suny-labs/setup/installation
+title: Installation
 ---
+
 
 # This will have info on OS setup
 
