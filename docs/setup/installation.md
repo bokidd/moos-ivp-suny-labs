@@ -1,4 +1,3 @@
-
 # This will have info on OS setup
 
 ## Windows (WSL)
