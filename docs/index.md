@@ -38,7 +38,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 End comment-->
 
-#Welcome to the SUNY Maritime MOOS-IVP GitHub Site!
+# Welcome to the SUNY Maritime MOOS-IVP GitHub Site!
 
 This is very much a work in progress so bear with us!
 We are testing different alternatives, but this seems to be simplest.
