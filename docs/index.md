@@ -38,4 +38,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 End comment-->
 
-This is an initial commit! We are pursuing alternatives to posting and will update this page in time.
+#Welcome to the SUNY Maritime MOOS-IVP GitHub Site!
+
+This is very much a work in progress so bear with us!
+We are testing different alternatives, but this seems to be simplest.
+
+Step 1 will be to get your OS ready to roll. Begin by going to the [Installation Page](https://bokidd.github.io/moos-ivp-suny-labs/setup/installation.md). If you're installing on a single-board computer (Raspberry Pi or BeagleBone Black), head over to [Pi/BBB Setup](https://bokidd.github.io/moos-ivp-suny-labs/setup/Pi_Setup.md) first.
