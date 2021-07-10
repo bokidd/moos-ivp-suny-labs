@@ -43,4 +43,4 @@ End comment-->
 This is very much a work in progress so bear with us!
 We are testing different alternatives, but this seems to be simplest.
 
-Step 1 will be to get your OS ready to roll. Begin by going to the [Installation Page](https://bokidd.github.io/moos-ivp-suny-labs/installation.md). If you're installing on a single-board computer (Raspberry Pi or BeagleBone Black), head over to [Pi/BBB Setup](https://bokidd.github.io/moos-ivp-suny-labs/Pi_Setup.md) first.
+Step 1 will be to get your OS ready to roll. Begin by going to the [Installation Page](https://bokidd.github.io/moos-ivp-suny-labs/setup/installation.md). If you're installing on a single-board computer (Raspberry Pi or BeagleBone Black), head over to [Pi/BBB Setup](https://bokidd.github.io/moos-ivp-suny-labs/setup/Pi_Setup.md) first.

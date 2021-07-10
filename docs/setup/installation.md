@@ -1,3 +1,7 @@
+layout: page
+title: "Installation"
+permalink: https://bokidd.github.io/moos-ivp-suny-labs/setup/installation
+
 # This will have info on OS setup
 
 ## Windows (WSL)
