@@ -1,6 +1,6 @@
-#This will have info on OS setup
+# This will have info on OS setup
 
-##Windows (WSL)
+## Windows (WSL)
 Technically, MOOS won't really run in Windows, so you'll need to somehow utilise Linux within Windows.  Windows Subsystem for Linux (WSL) allows you to use a Unix terminal within Windows in order to run Linux-specific programs and software with a compatibility layer. To do this, open Powershell with admin privileges and run the following command:
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
